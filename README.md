@@ -12,7 +12,7 @@ Generate a template data pack directory based on [our convention](https://github
         python main.py -h
 
 ### Required Arguments
-- Minecraft version set by `-v <version>` or `--version <version>`, in x.xx.x format. A version must support datapack.
+- Minecraft version set by `-v <version>` or `--version <version>`, formatted as `x.xx.x`. A valid version must support datapack.
 
         python main.py -v 1.19.2
 
@@ -25,4 +25,4 @@ Generate a template data pack directory based on [our convention](https://github
 
 - Datapack description set by `-d <your-description>`. This will appear as description in the pack.mcmeta file.
 
-- Whether to create empty load function, tick function, and load/unload messages, set by `-l`, `-t`, and `-m` with boolean arguments.
+- Options to create empty load function, tick function, and default load/unload messages, set by `-l`, `-t`, and `-m` with boolean arguments.
