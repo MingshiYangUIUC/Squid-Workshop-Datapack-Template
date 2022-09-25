@@ -1,11 +1,11 @@
 # Squid-Workshop-Datapack-Template
-Generate a template datapack directory based on [our Contributing Convention](https://github.com/Squid-Workshop/Minecraft-Datapacks-Project/blob/master/CONTRIBUTING.md).
+Use Python to generate a template datapack tree based on [our Contributing Convention](https://github.com/Squid-Workshop/Minecraft-Datapacks-Project/blob/master/CONTRIBUTING.md).
 
 Feel free to modify the script for your own needs, but please credit us.
 
 ## Usage
-- Open a local terminal and activate your python environment.
-- Execute the script with arguments.
+- Download the script, open a local terminal and activate your python environment.
+- Execute the script with arguments
 
         python main.py -args
 
