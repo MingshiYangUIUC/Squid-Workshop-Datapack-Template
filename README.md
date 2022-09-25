@@ -19,10 +19,10 @@ Generate a template data pack directory based on [our convention](https://github
 ### Optioanl Arguments
 - Output directory (often the /datapacks folder) set by `-o <path>` or `--outputdir <path>`. Only support absolute path.
 
-- Name of the datapack set by `-n <pack-name>` or `--pname <pack-name>`. This will be the name showing after the command /datapack list.
+- Name of the datapack set by `-n <pack-name>` or `--packname <pack-name>`. This will be the name showing after the command /datapack list.
 
-- Core name set by `-c <core-name>`. This will be the name of your core function folders.
+- Core name set by `-c <core-name>` or `--corename <core-name>`. This will be the name of your core function folders.
 
-- Datapack description set by `-d <your-description>`. This will appear as description in the pack.mcmeta file.
+- Datapack description set by `-d <your-description>` or `-description <your-description>`. This will appear as description in the pack.mcmeta file.
 
-- Options to create empty load function, tick function, and default load/unload messages, set by `-l`, `-t`, and `-m` with boolean arguments.
+- Options to create empty load function, tick function, and default load/unload messages, set by `-l` or `loadfunc`, `-t` or `tickfunc`, and `-m` or `loadmsg` with boolean arguments.
