@@ -1,5 +1,5 @@
 # Squid-Workshop-Datapack-Template
-Generate a template data pack directory based on our convention.
+Generate a template data pack directory based on (our convention)[https://github.com/Squid-Workshop/Minecraft-Datapacks-Project/blob/master/CONTRIBUTING.md].
 
 ## Usage
 - Open a local terminal and activate your python environment.
@@ -21,4 +21,4 @@ Generate a template data pack directory based on our convention.
 
 - Name of the datapack set by -n <name> or --pname <name>. This will be the name showing after the command /datapack list.
 
-       
+- Core name set by -f <name>. This will be the name of your core function folders.
