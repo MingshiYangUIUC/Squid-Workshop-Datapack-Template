@@ -1,5 +1,5 @@
 # Squid-Workshop-Datapack-Template
-Generate a template data pack directory based on (our convention)[https://github.com/Squid-Workshop/Minecraft-Datapacks-Project/blob/master/CONTRIBUTING.md].
+Generate a template data pack directory based on [our convention](https://github.com/Squid-Workshop/Minecraft-Datapacks-Project/blob/master/CONTRIBUTING.md).
 
 ## Usage
 - Open a local terminal and activate your python environment.
