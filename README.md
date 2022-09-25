@@ -12,16 +12,16 @@ Generate a template data pack directory based on [our convention](https://github
         python main.py -h
 
 ### Required Arguments
-- Minecraft version set by -v or --version, in x.xx.x format. A version must support datapack.
+- Minecraft version set by `-v <version>` or `--version <version>`, in x.xx.x format. A version must support datapack.
 
         python main.py -v 1.19.2
 
 ### Optioanl Arguments
 - Output directory (often the /datapacks folder) set by `-o <path>` or `--outputdir <path>`. Only support absolute path.
 
-- Name of the datapack set by `-n <name>` or `--pname <name>`. This will be the name showing after the command /datapack list.
+- Name of the datapack set by `-n <pack-name>` or `--pname <pack-name>`. This will be the name showing after the command /datapack list.
 
-- Core name set by `-f <name>`. This will be the name of your core function folders.
+- Core name set by `-c <core-name>`. This will be the name of your core function folders.
 
 - Datapack description set by `-d <your-description>`. This will appear as description in the pack.mcmeta file.
 
