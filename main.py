@@ -52,16 +52,16 @@ if __name__ == "__main__":
     # get arguments
     opts, args = getopt.getopt(
         sys.argv[1:],
-        "v:n:d:l:t:m:o:f:u:hI",
+        "v:n:d:l:t:m:o:c:u:hI",
         [
             "version=",
-            "pname=",
-            "pdescription=",
+            "packname=",
+            "description=",
             "loadfunc=",
             "tickfunc=",
             "loadmsg=",
             "outputdir=",
-            "funcname=",
+            "corename=",
             "unloadfunc=",
             "help=$OPTARG",
         ],
@@ -89,7 +89,7 @@ if __name__ == "__main__":
             pack_descrip = pair[1]
         elif pair[0] == "-o" or pair[0] == "--outputdir":
             pack_outdir = pair[1]
-        elif pair[0] == "-f" or pair[0] == "--funcname":
+        elif pair[0] == "-c" or pair[0] == "--corename":
             func_name = pair[1]
         elif pair[0] == "-l" or pair[0] == "--loadfunc":
             load_function = bool(pair[1])
@@ -119,7 +119,7 @@ if __name__ == "__main__":
             "    Help: -h\n",
             "    Set game version: -v 1.19.2\n",
             "    Set pack folder name: -n myTemplate\n",
-            "    Set function header name: -f mypack\n",
+            "    Set core name: -c mypack\n",
             '    Set custom pack description: -d "my description"\n',
             "    Set another output dir: -o absolute/path/to/output\n",
             "    Load function: -l boolean\n",
