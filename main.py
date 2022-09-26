@@ -3,7 +3,6 @@ Created by YMS2001, format designed by Squid Workshop
 """
 
 # imports
-from json import load
 import sys, getopt
 import os
 import shutil
@@ -115,7 +114,8 @@ if __name__ == "__main__":
 
     if creator_help:
         print(
-            "User help:\n",
+            "Help: argument examples\n",
+            "Examples\n"
             "    Help: -h\n",
             "    Set game version: -v 1.19.2\n",
             "    Set pack folder name: -n myTemplate\n",
